@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Residence - Luxury Apartments</title>
+    <meta name="description"
+        content="Discover luxury apartments at Crown Residence. Modern living with premium amenities in a prime location.">
+    <meta name="keywords"
+        content="luxury apartments, apartments for rent, modern living, prime location, Crown Residence">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:ital,wght@0,400;0,700;1,400&family=Prata&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="text-base">
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="header__container">
+            <!-- Заголовок -->
+            <h1 class="header__title title-style">Crown Residence</h1>
+            <!-- Навигация по сайту -->
+            <nav class="header__nav" aria-label="Main Navigation">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#">Suites</a></li>
+                    <li class="header__item"><a class="header__link" href="#">Amenities</a></li>
+                    <li class="header__item"><a class="header__link" href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- СЕКЦИЯ 1 -->
+        <section class="section-one">
+            <div class="section-one__container">
+                <!-- Текстовый блок слева -->
+                <div class="section-one__text-block">
+                    <h1 class="section-one__title section-one-title-style">Crown Residence</h1>
+                    <h2 class="section-one__subtitle section-one-subtitle-style">your dream home awaits</h2>
+                    <!-- Список -->
+                    <div class="section-one__list-wrapper">
+                        <ul class="section-one__list">
+                            <li class="section-one__list-item">
+                                <img src="/images/section1/tick.svg" alt="Icon" class="section-one__list-icon">
+                                <span>
+                                  luxury suites from
+                                    <span class="number">10,000</span>/month
+                                </span>
+                            </li>
+                            <li class="section-one__list-item">
+                                <img src="/images/section1/tick.svg" alt="Icon" class="section-one__list-icon">
+                                <span>
+                                    enjoy 
+                                    <span class="number">30%</span> more space
+                                </span>
+                            </li>
+                            <li class="section-one__list-item">
+                                <img src="/images/section1/tick.svg" alt="Icon" class="section-one__list-icon">
+                                <span>
+                                    invest with 
+                                    <span class="number">17%</span> annual return
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Кнопка -->
+                    <a href="#" class="section-one__button button">Order</a>
+                </div>
+                <!-- Изображение справа -->
+                <div class="section-one__image-block">
+                    <img src="/images/section1/building.jpg" alt="Building" class="section-one__image">
+                </div>
+            </div>
+        </section>
+ 
+        <!-- СЕКЦИЯ 2 -->
+        <section class="section-two section-two--light">
+            <div class="section-two__container">
+                <!-- Пустая колонка (для центровки) -->
+                <div class="section-two__empty-column"></div>
+                <!-- Контент (текст и кнопка) -->
+                <div class="section-two__content">
+                    <!-- Список -->
+                    <div class="section-two__list-wrapper">
+                        <ul class="section-two__list">
+                            <li class="section-two__list-item">
+                                <img src="/images/section2/column.svg" alt="Icon" class="section-two__list-icon">
+                                <span class="section-two__list-text">Exceptional location in a prestigious area,
+                                    offering easy access to key infrastructure and entertainment.</span>
+                            </li>
+                            <li class="section-two__list-item">
+                                <img src="/images/section2/column.svg" alt="Icon" class="section-two__list-icon">
+                                <span class="section-two__list-text">Modern apartments with thoughtful layouts and
+                                    high-quality finishes, ensuring maximum comfort and functionality.</span>
+                            </li>
+                            <li class="section-two__list-item">
+                                <img src="/images/section2/column.svg" alt="Icon" class="section-two__list-icon">
+                                <span class="section-two__list-text">A wide range of amenities, including a swimming
+                                    pool, fitness center, secure area, and parking, creating an atmosphere of luxury and
+                                    security.</span>
+                            </li>
+                            <li class="section-two__list-item">
+                                <img src="/images/section2/column.svg" alt="Icon" class="section-two__list-icon">
+                                <span class="section-two__list-text">Favorable investment opportunities with the
+                                    potential for stable income and long-term real estate value growth.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Кнопка -->
+                    <a href="#" class="section-two__button button" aria-label="Order an apartment">Order</a>
+                </div>
+                <!-- Колонка с изображением -->
+                <div class="section-two__image-column">
+                    <img src="/images/section2/building2.jpg" alt="Building" class="section-two__image">
+                </div>
+            </div>
+        </section>
+
+<!-- СЕКЦИЯ 3 -->
+        <section class="section-three section-three--light">
+            <div class="section-three__container">
+                <!-- Форма обратной связи -->
+                <form id="contactForm" class="section-three__form">
+                    <!-- Заголовок формы -->
+                    <h2 class="section-three__form-title section-three-form-title-style">Contact Us</h2>
+                    <!-- Группа полей "Имя" -->
+                    <div class="section-three__form-group">
+                        <label for="name" class="section-three__label">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name" minlength="2" class="section-three__input">
+                    </div>
+                    <!-- Группа полей "Почта" -->
+                    <div class="section-three__form-group">
+                        <label for="email" class="section-three__label">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required class="section-three__input">
+                    </div>
+                    <!-- Группа "Privacy Policy" -->
+                    <div class="section-three__form-group section-three__form-group--checkbox">
+                        <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required
+                            class="section-three__checkbox">
+                        <label for="privacyPolicy" id="privacyPolicy" name="privacyPolicy" class="section-three__label privacy-text-style">I accept <a href="#">Privacy
+                                policy</a></label>
+                    </div>
+                    <!-- Кнопка -->
+                    <button type="submit" class="section-three__button button" aria-label="Submit the contact form">Submit form</button>
+                </form>
+                <!-- Обертка для изображений -->
+                <div class="section-three__image-wrapper">
+                    <!-- Изображение здания снизу -->
+                    <img src="/images/section3/building3.jpg" alt="Building" class="section-three__image section-three__image--bottom">
+                    <!-- Изображение человека сверху -->
+                    <img src="/images/section3/person.png" alt="Person" class="section-three__image section-three__image--top">
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="footer__container footer__container--grid">
+            <!-- Навигация -->
+            <nav class="footer__nav" aria-label="Footer Navigation">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Suites</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Amenities</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+    <!-- Колонка 1: Копирайт -->
+            <div class="footer__col1">
+                <p class="footer__copyright title-style">Crown Residence</p>
+                <p class="footer__bottom-row">&copy; 2024 Copyright</p>
+            </div>
+    
+            <!-- Колонка 2: Социальные сети и Privacy Policy -->
+            <div class="footer__col2">
+                <div class="footer__social-media">
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our Instagram page"><img src="/images/footer/inst.svg" alt="Instagram"></a>
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our TikTok page"><img src="/images/footer/ticktock.svg" alt="TikTok"></a>
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our LinkedIn page"><img src="/images/footer/linkedin.svg" alt="LinkedIn"></a>
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our Facebook page"><img src="/images/footer/fb.svg" alt="Facebook"></a>
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our Telegram page"><img src="/images/footer/tg.svg" alt="Telegram"></a>
+                    <a class="footer__social-media-link" href="#" aria-label="Visit our YouTube page"><img src="/images/footer/youtube.svg" alt="YouTube"></a>
+                </div>
+                <a class="footer__privacy-policy footer__bottom-row" href="#" aria-label="Read our Privacy Policy">Privacy Policy</a>
+            </div>
+    
+            <!-- Колонка 3: Order и Terms of Use -->
+            <div class="footer__col3">
+                <a href="#" class="footer__order-button button" aria-label="Order a suite">Order</a>
+                <a class="footer__terms-of-use footer__bottom-row" href="#" aria-label="Read our Terms of Use">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
